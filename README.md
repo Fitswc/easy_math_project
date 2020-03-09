@@ -1,6 +1,6 @@
 ## Easy_Math_Project
 
-Hi🙃 Welcome! This Project will help you to do some simple float calculations. Maybe it can help you!
+Hi🙃 This Project will help you to do some simple float calculations. Maybe it can help you!
 
 ## Usage
 ### Method 1
