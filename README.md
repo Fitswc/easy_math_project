@@ -10,7 +10,7 @@ Hi🙃 Welcome! This Project will help you to do some simple float calculations.
 4. You can enter the command `math` to use.
 
 ### Method 2(Recommend)
-1. Download `math_setup.msi` in releases.
+1. Download `math_setup.exe` in releases.
 2. Run Setup!
 3. You can enter the command `math` to use.
 
