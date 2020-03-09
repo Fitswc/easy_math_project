@@ -16,12 +16,25 @@ Hi🙃 This Project will help you to do some simple calculations. Maybe it can h
 
 ## You Can Use Command📝
 help :Get Help for all command
+
+
 pt :Use Pythagorean theorem to Calculation C(Third side of right triangle)
+
+
 abs :Figure out absolute valuel
+
+
 sin :Sine of a number
+
+
 cos :Cosine of a number
+
+
 sqrt :Find the square root of a number
+
+
 license :Watch the license" 
+
 
 ## Bugs🐞
 You Can tell me in Issues!
