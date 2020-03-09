@@ -58,32 +58,32 @@ int main(){
         exit(0);
     }
 
-    else
-    {
-        cout << "Unknow command!" << endl;
-        exit(0);
-    }
-
-    cout << endl << "[Enter] type:Float > " ;
-    cin >> num;
     
     if (input == "abs")
     {
+        cout << endl << "[Enter] type:Float > " ;
+        cin >> num;
         out_num = abs(num);
         cout << "[Output] type:float > " << out_num << endl;
     }
     else if (input == "sin")
     {
+        cout << endl << "[Enter] type:Float > " ;
+        cin >> num;
         out_num = sin(num);
         cout << "[Output] type:float > " << out_num <<endl;
     }
     else if (input == "cos")
     {
+        cout << endl << "[Enter] type:Float > " ;
+        cin >> num;
         out_num = sin(num);
         cout << "[Output] type:float > " << out_num <<endl;
     }
     else if (input == "sqrt")
     {
+        cout << endl << "[Enter] type:Float > " ;
+        cin >> num;
 
         if (num < 0)
         {
@@ -96,7 +96,7 @@ int main(){
     }
     else
     {
-        cout << "Unsupport Number!" << endl;
+        cout << "UnKnow!" << endl;
     }
     
 
