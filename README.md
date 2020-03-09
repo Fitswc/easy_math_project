@@ -13,3 +13,11 @@ Hi🙃 Welcome! This Project will help you to do some simple float calculations.
 1. Download `math_setup.msi` in releases.
 2. Run Setup!
 3. You can enter the command `math` to use.
+
+## Bugs🐞
+You Can tell me in Issues!
+
+## Contribution
+You can Fork this Project and created the Pull request
+
+### If you like,Please Give a star😀！
