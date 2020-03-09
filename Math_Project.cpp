@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <string>
+#include <fstream>
 #include "pt.h"
 
 using namespace std;
@@ -10,6 +11,7 @@ int main(){
     float num;
     float out_num;
     pt_num ptn;
+    string file;
 
 
     cout << "Math_project" << endl <<"2020/3/7" << endl << "[Enter] type:String > ";
@@ -23,7 +25,8 @@ int main(){
         << "abs :Figure out absolute value" << endl
         << "sin :Sine of a number" << endl
         << "cos :Cosine of a number" << endl
-        << "sqrt :Find the square root of a number" << endl 
+        << "sqrt :Find the square root of a number" << endl
+        << "license :Watch the license" 
         << "Latest edit is in 2020/3/8 By Eric/Fitswc" << endl;
         exit(0);
     }
@@ -41,6 +44,17 @@ int main(){
         ptn.seta(a);
         ptn.setb(b);
         cout << "By Pythagorean theorem: C is " << ptn.pt_out() << endl;
+        exit(0);
+    }
+
+    else if(input == "license")
+    {
+        cout << "LICENSE: " << endl;
+        fstream infile; 
+        infile.open("license.txt");
+        infile >> file;
+        cout << file << endl;
+        infile.close();
         exit(0);
     }
 
